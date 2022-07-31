@@ -439,4 +439,29 @@ footer {
     margin-top: 19rem;
     margin-left: 40rem;
   }
+  footer {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 15rem;
+    width: 38rem;
+    text-align: center;
+    margin-left: 3.5rem;
+  } 
+  .email {
+    position: absolute;
+  }
+  .phone img {
+    margin-left: -4rem;
+  }
+  .phone {
+    position: absolute;
+    margin-top: 4rem;
+  }
+  .whatsapp {
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: -5rem;
+  }
+
 }
