@@ -421,5 +421,22 @@ footer {
     margin-top: 14rem;
     margin-left: 27rem;
   }
-  
+  .project-link {
+    flex-direction: column;
+    width: 9rem;
+    border: none;
+    font-size: 15px;
+  }
+  #linkOne {
+    margin-left: 24rem;
+    margin-top: 19rem;
+  }
+  #linkTwo {
+     margin-left: 14rem;
+    margin-top: 19rem;
+  }
+  #linkThree {
+    margin-top: 19rem;
+    margin-left: 40rem;
+  }
 }
