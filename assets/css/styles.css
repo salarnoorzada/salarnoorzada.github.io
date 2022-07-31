@@ -464,5 +464,81 @@ footer {
     margin-top: 8rem;
     margin-left: -5rem;
   }
-
 }
+@media screen and (max-width: 420px) {
+  .hero img {
+    height: 20.5rem;
+    width: 23rem;
+  }
+ /* * needs Changes */
+  .bio {
+    width: 18.3rem;
+  }
+
+  .project-container {
+    width: 20.875rem;
+  }
+  .project-container {
+    position: relative;
+    flex-direction: column;
+    width: 18rem;
+    height: 50rem;
+  }
+  .project-pic {
+    position: absolute;
+    align-items: center;
+    max-width: 15rem;
+    max-height: 10rem;
+    margin-left: 48rem;
+    margin-top: -25rem;
+  }
+  #picTwo {
+    position: absolute;
+    margin-top: 7rem;
+  }
+  #picThree {
+    margin-left: 23rem;
+    margin-top: 40rem;
+  }
+  .project-title {
+    text-align: center;
+    font-size: 16px;
+  }
+  #titleOne {
+    margin-top: -20rem;
+    margin-left: 27rem;
+  }
+  #titleTwo {
+    margin-top: 13rem;
+    margin-left: 1rem;
+  }
+  #titleThree {
+    margin-top: 45rem;
+  }
+  #linkOne {
+    margin-top:-16rem;
+    margin-left: 49rem;
+  }
+  #linkTwo {
+    margin-left: 14rem;
+    margin-top: 17rem;
+  }
+  #linkThree {
+    margin-left: 15rem;
+    margin-top: 48rem;
+  }
+  footer {
+    margin-top: 29rem;
+    height: 17rem;
+    flex-direction: column;
+    width: 410px;
+    margin-left: 0rem;
+  }
+  .pics {
+    padding: 1rem;
+  }
+ 
+  .contact h3 {
+    margin-left: -4rem;
+  }
+} 
