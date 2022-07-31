@@ -8,3 +8,21 @@ scrollUp.addEventListener("click", () => {
         behavior: "smooth",
     });
 });
+//* huberger selections:
+const burger = document.querySelector("#burger-menu");
+const ul = document.querySelector("nav ul");
+const nav = document.querySelector("nav");
+
+//* adding click event listener:
+burger.addEventListener("click", () => {
+    ul.classList.toggle("show");
+});
+
+//* close the hamburger when a link is clicked:
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach((link) =>
+link.addEventListener("click", () => {
+    ul.classList.remove("show");
+})
+);
