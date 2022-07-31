@@ -366,6 +366,7 @@ footer {
   }
   .burger-menu {
     display: block;
+    border: none;
   }
   nav ul.show {
     transform: translateX(0);
