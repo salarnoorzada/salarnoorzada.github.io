@@ -370,4 +370,46 @@ footer {
   nav ul.show {
     transform: translateX(0);
   }
+  .hero {
+    margin-top: -4rem;
+    flex-direction: column;
+    gap: 0;
+  }
+  .hero img {
+    height: 25.5rem;
+    width: 30rem;
+  }
+  .bio {
+    margin-top: -5rem;
+    width: 20.5rem;
+  }
+  .skills {
+    width: 5.875rem;
+    height: 5.25rem;
+  }
+  .projects-container {
+    flex-direction: column;
+  }
+  .project-container {
+    flex-direction: column;
+    width: 38rem;
+  }
+  .project-pic {
+   
+    max-width: 28%;
+    margin-left: 23rem;
+    margin-right: 23rem;  
+    
+  }
+  #picTwo {
+    margin-left: 23rem;
+  }
+  .project-title {
+    flex-direction: column;
+  }
+  #titleOne {
+    margin-top: 55rem;
+    margin-right: 20rem;
+    font-size: 20px;
+  }
 }
